@@ -34,41 +34,4 @@
         android:background="#C5CAE9"
         app:popupTheme="@style/Theme.Squable.PopupOverlay" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/messages_title"
-        android:textColor="#37474F"
-        app:layout_anchor="@+id/toolbar"
-        app:layout_anchorGravity="center" />
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_anchorGravity="center|top"
-        android:layout_marginTop="56dp">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/scroll_all" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/scroll_from" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/scroll_to_me"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/scroll_sent"/>
-    </com.google.android.material.tabs.TabLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
