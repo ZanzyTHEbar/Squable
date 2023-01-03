@@ -1,4 +1,4 @@
-package com.prometheontechnologies.squable.ui.slideshow;
+package com.prometheontechnologies.squable.ui.me;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.prometheontechnologies.squable.databinding.FragmentSlideshowBinding;
+import com.prometheontechnologies.squable.databinding.FragmentMeBinding;
 
-public class SlideshowFragment extends Fragment {
+public class MeFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentMeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        MeViewModel meViewModel =
+                new ViewModelProvider(this).get(MeViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentMeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textMe;
+        meViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
