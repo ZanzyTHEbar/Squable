@@ -9,6 +9,7 @@ android {
     defaultConfig {
         applicationId "com.prometheontechnologies.squable"
         minSdk 31
+        //noinspection OldTargetApi
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -29,6 +30,8 @@ android {
     buildFeatures {
         viewBinding true
     }
+    ndkVersion '25.1.8937393'
+    buildToolsVersion '33.0.1'
 }
 
 dependencies {
