@@ -16,4 +16,5 @@
     <string name="scroll_all">All</string>
     <string name="scroll_from">From</string>
     <string name="scroll_to_me">To Me</string>
+    <string name="scroll_sent">Sent</string>
 </resources>
