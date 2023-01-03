@@ -23,7 +23,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/menu_message"
         app:backgroundTint="#BBDEFB"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
