@@ -17,4 +17,15 @@
     <string name="scroll_from">From</string>
     <string name="scroll_to_me">To Me</string>
     <string name="scroll_sent">Sent</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="call_sign">Call Sign</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">submit</string>
 </resources>
