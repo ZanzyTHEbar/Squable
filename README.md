@@ -1,6 +1,6 @@
 # SolidJSTauri
 
-This  is a streamlined `Tauri` example using `Vite` and `SolidJS`
+This  is a streamlined `Tauri` project using `Vite` and `SolidJS`
 
 This example includes:
 
@@ -28,7 +28,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 
-An app should launch on your desktop. 
+An app should launch on your desktop.
 
 Alternatively open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
