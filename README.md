@@ -15,7 +15,7 @@ This example includes:
 ## Usage
 
 ```bash
-$ yarn # or pnpm install or npm install
+yarn # or pnpm install or npm install
 ```
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
