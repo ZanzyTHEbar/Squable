@@ -40,6 +40,9 @@
         "[typescript]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
-        "liveServer.settings.multiRootWorkspaceName": "Example"
+        "liveServer.settings.multiRootWorkspaceName": "Example",
+        "[shellscript]": {
+            "editor.defaultFormatter": "shakram02.bash-beautify"
+        }
     }
 }
