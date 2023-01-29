@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 brew install wget
 brew install unzip
 
@@ -22,16 +21,16 @@ printf "Download the SDK Manager directly through the Command line tools bundle"
 
 wget https://dl.google.com/android/repository/commandlinetools-mac-8512546_latest.zip -O cmdline-tools.zip
 unzip cmdline-tools.zip
-mkdir ~/.android/cmdline-tools/latest
-mv cmdline-tools/* ~/.android/cmdline-tools/latest
+mkdir ~/.android/cmdline-tools/
+mv cmdline-tools/* ~/.android/cmdline-tools
 rm -rf cmdline-tools
 
 printf "Set the ANDROID_HOME and NDK_HOME environment variables"
-export ANDROID_HOME="$HOME/.android"
+export ANDROID_HOME="$HOME/.android/cmdline-tools/bin"
 export NDK_HOME="$ANDROID_HOME/ndk/25.0.8775105"
 
 printf "Install required SDK and NDK components"
-~/.android/cmdline-tools/latest/bin/sdkmanager "platforms;android-33" "platform-tools" "ndk;25.0.8775105" "build-tools;33.0.0"
+~/.android/cmdline-tools/bin/sdkmanager "platforms;android-33" "platform-tools" "ndk;25.0.8775105" "build-tools;33.0.0"
 
 printf "Manging the Rust toolchain"
 rustup update
