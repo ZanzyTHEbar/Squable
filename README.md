@@ -1,6 +1,6 @@
-# SolidJSTauri
+# squable
 
-This  is a streamlined `Tauri` project using `Vite` and `SolidJS`
+This  is a streamlined `Tauri Mobile` project using `Vite` and `SolidJS`
 
 This example includes:
 
