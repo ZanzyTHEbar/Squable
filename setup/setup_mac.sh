@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+brew install wget
+brew install unzip
+
 printf "Installing Xcode Tools"
 xcode-select --install
 
@@ -20,7 +24,7 @@ wget https://dl.google.com/android/repository/commandlinetools-mac-8512546_lates
 unzip cmdline-tools.zip
 mkdir ~/.android/cmdline-tools/latest
 mv cmdline-tools/* ~/.android/cmdline-tools/latest
-rm cmdline-tools
+rm -rf cmdline-tools
 
 printf "Set the ANDROID_HOME and NDK_HOME environment variables"
 export ANDROID_HOME="$HOME/.android"
