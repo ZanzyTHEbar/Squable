@@ -27,7 +27,7 @@ export default defineConfig(async () => {
         plugins: [solidPlugin()],
         server: {
             host: '0.0.0.0', // listen on all addresses
-            port: 5173,
+            port: 3000,
             strictPort: true,
             hmr: {
                 protocol: 'ws',
