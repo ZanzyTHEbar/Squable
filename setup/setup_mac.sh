@@ -35,3 +35,5 @@ printf "Install required SDK and NDK components"
 printf "Manging the Rust toolchain"
 rustup update
 rustc --version
+
+rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android

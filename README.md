@@ -5,6 +5,7 @@ This  is a streamlined `Tauri` project using `Vite` and `SolidJS`
 This example includes:
 
 - [Tauri](https://tauri.app/)
+- [Tauri Mobile](https://next--tauri.netlify.app/blog/2022/12/09/tauri-mobile-alpha)
 - [JSDoc](https://jsdoc.app/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
@@ -59,3 +60,54 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+### Mobile Deployment
+
+#### Pre-requisites
+
+Navigate to the `setup` folder and run the setup script for your OS and target.
+
+If you prefer to use the `Android Studio` for Android development, you can skip the setup script and simply follow these [docs](https://next--tauri.netlify.app/next/mobile/development/configuration) and [here](https://next--tauri.netlify.app/next/guides/getting-started/prerequisites/windows).
+
+No matter which method you choose, you will need to have the `Android SDK` installed and the `ANDROID_HOME` environment variable set.
+
+You will also need to have `Xcode` installed for iOS development.
+
+The following command is needed for android development:
+
+```bash
+rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+```
+
+> **Warning**: You need rust to be installed prior to running the above command.
+
+### Running your app
+
+To run your app using the mobile server, run the following:
+
+```bash
+yarn tauri <target> dev
+```
+
+Where `<target>` is one of the following:
+
+- `ios`
+- `android`
+  
+#### Running the app with `Android Studio`
+
+```bash
+yarn tauri android dev [--open]
+```
+
+The `--open` flag will open the project in `Android Studio` after the build is complete.
+
+You can then select your emulator or device and run the app.
+
+### Building your app
+
+To build your app for mobile, run the following:
+
+```bash
+yarn tauri <target> build
+```

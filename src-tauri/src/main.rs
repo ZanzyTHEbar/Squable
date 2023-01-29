@@ -4,7 +4,5 @@
 )]
 
 fn main() {
-    app::AppBuilder::new()
-        .run()
-        .except("error while running tauri application");
+    app::AppBuilder::new().run();
 }
