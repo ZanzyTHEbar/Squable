@@ -43,6 +43,9 @@
         "liveServer.settings.multiRootWorkspaceName": "Example",
         "[shellscript]": {
             "editor.defaultFormatter": "shakram02.bash-beautify"
+        },
+        "[powershell]": {
+            "editor.defaultFormatter": "ms-vscode.powershell"
         }
     }
 }
