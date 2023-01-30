@@ -8,6 +8,9 @@
     "start": "vite start",
     "serve": "vite preview",
     "docs": "jsdoc -c jsdoc.conf.json",
+    "android": "yarn tauri android dev",
+    "android:studio": "yarn tauri android dev [--open]",
+    "android:build": "yarn tauri android build",
     "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
     "format": "yarn run lint --fix & yarn prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
