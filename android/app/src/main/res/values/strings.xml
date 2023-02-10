@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Squable</string>
+    <string name="title_activity_main">Squable</string>
+    <string name="package_name">com.prometheontechnologies.squable</string>
+    <string name="custom_url_scheme">com.prometheontechnologies.squable</string>
+</resources>

@@ -1,11 +1,10 @@
-# squable
+# Squable
 
-This  is a streamlined `Tauri Mobile` project using `Vite` and `SolidJS`
+This is a streamlined `CapacitorJS` project using `Vite` and `SolidJS`
 
 This example includes:
 
-- [Tauri](https://tauri.app/)
-- [Tauri Mobile](https://next--tauri.netlify.app/blog/2022/12/09/tauri-mobile-alpha)
+- [Capacitor](https://capacitorjs.com/)
 - [JSDoc](https://jsdoc.app/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
@@ -25,7 +24,7 @@ yarn # or pnpm install or npm install
 
 In the project directory, you can run:
 
-### `yarn tauri dev`
+### `yarn cap dev`
 
 Runs the app in the development mode.<br>
 

@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid-tauri",
+  "name": "vite-template-solid-capacitor",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -8,9 +8,12 @@
     "start": "vite start",
     "serve": "vite preview",
     "docs": "jsdoc -c jsdoc.conf.json",
-    "android": "yarn tauri android dev",
-    "android:studio": "yarn tauri android dev [--open]",
-    "android:build": "yarn tauri android build",
+    "android:add": "npx cap add android",
+    "ios:add": "npx cap add ios",
+    "sync": "npx cap sync",
+    "studio": "npx cap open android",
+    "run:android": "npx cap run android",
+    "run:ios": "npx cap run ios",
     "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
     "format": "yarn run lint --fix & yarn prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
@@ -19,9 +22,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.18.0",
+    "@capacitor/cli": "^4.6.3",
     "@tailwindcss/forms": "^0.5.3",
-    "@tauri-apps/api": "^2.0.0-alpha.0",
-    "@tauri-apps/cli": "^2.0.0-alpha.1",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
@@ -35,8 +37,6 @@
     "eslint-plugin-autofix": "^1.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-solid": "^0.9.1",
-    "https-localhost": "^4.7.1",
-    "internal-ip": "^7.0.0",
     "jsdoc": "^4.0.0",
     "postcss": "^8.4.18",
     "postcss-import": "^15.0.0",
@@ -47,6 +47,9 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
+    "@capacitor/android": "^4.6.3",
+    "@capacitor/core": "^4.6.3",
+    "@capacitor/ios": "^4.6.3",
     "@tailwindcss/typography": "^0.5.8",
     "solid-js": "^1.6.6",
     "yarn": "^1.22.19"
