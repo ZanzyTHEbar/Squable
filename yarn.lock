@@ -4797,10 +4797,10 @@ solid-spinner@^0.1.9:
   resolved "https://registry.yarnpkg.com/solid-spinner/-/solid-spinner-0.1.9.tgz#4292edf195b779f22a4fd68cdee522d82e7f6507"
   integrity sha512-cwSmcvlSm134MzUHL1/Il5Mv0/eWTuj0D3A8TBEvVGgN00hBCyHV9wbtfkK2uOlk4gop4FvvI9UFo9mQnONx5g==
 
-solid-transition-group@^0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.0.12.tgz#5b5d542aa20d4ff666ac582b6f4863c34743769b"
-  integrity sha512-Eu4MfNZSSxM67C+4EXaoDiWr4BFbDLg3j30JQJgQEIH9UDOfgNPfZlsFDhT/PxwJqhe6sn85W+dbmYJzBmjpAA==
+solid-transition-group@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.0.13.tgz#1a476d3798759be106ad1062cc071db139b0d564"
+  integrity sha512-VA1V0ip4dsNOQJ/dCluCiAPBUuHspYFm4WYG91jpNmcP4rC4DY1S1EGds44JjiUAP7qEoEZdMhPaiS6lqTF7AA==
 
 solid-use@^0.6.2:
   version "0.6.2"
