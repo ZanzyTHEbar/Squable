@@ -4,5 +4,5 @@
 )]
 
 fn main() {
-    app::AppBuilder::new().run();
+    squable::AppBuilder::new().run();
 }

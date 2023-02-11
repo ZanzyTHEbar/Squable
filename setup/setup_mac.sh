@@ -27,10 +27,10 @@ rm -rf cmdline-tools
 
 printf "Set the ANDROID_HOME and NDK_HOME environment variables \n"
 export ANDROID_HOME="$HOME/.android/cmdline-tools/bin"
-export NDK_HOME="$ANDROID_HOME/ndk/25.0.8775105"
+export NDK_HOME="$HOME/.android/ndk/25.0.8775105"
 
 printf "Install required SDK and NDK components \n"
-~/.android/cmdline-tools/bin/sdkmanager "platforms;android-33" "platform-tools" "ndk;25.0.8775105" "build-tools;33.0.0"
+~/.android/cmdline-tools/bin/sdkmanager "platforms;android-31" "platform-tools" "ndk;25.0.8775105" "build-tools;33.0.0"
 
 printf "Checking the Rust toolchain \n"
 rustup update
