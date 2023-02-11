@@ -15,5 +15,6 @@
 @import 'index.css';
 @import 'titlebar.css';
 @import 'scrollbar.css';
-@import 'header-wrapper.css';
+@import 'header_wrapper.css';
+@import 'footer_wrapper.css';
 @import 'context_menu.css';

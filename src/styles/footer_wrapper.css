@@ -1,0 +1,24 @@
+.footer-wrapper {
+    /* @apply --layout-horizontal; */
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(32, 34, 44, 0.15);
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    backdrop-filter: blur(10px);
+    user-select: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: calc(titlebar - 300px);
+    left: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 15px;
+}

@@ -7,6 +7,7 @@ const page404 = lazy(() => import('@pages/errors/index'))
 
 export const routes: RouteDefinition[] = [
     { path: '/', component: Home },
+    { path: '/contacts', component: Home },
     { path: '/settings', component: Settings },
     { path: '**', component: page404 },
 ]

@@ -1,9 +1,13 @@
 import Counter from '@components/Counter'
+import Navbar from '@components/Navbar'
 
 const Home = () => {
     return (
-        <div class="flex">
-            <Counter />
+        <div>
+            <div class="flex">
+                <Counter />
+            </div>
+            <Navbar />
         </div>
     )
 }

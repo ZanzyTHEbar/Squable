@@ -1,11 +1,9 @@
 import { onMount, Suspense, lazy } from 'solid-js'
 import { handleTitlebar, handleAppBoot } from '@utils/hooks/app'
-
-//const AppRoutes = lazy(() => import('@routes/Routes'))
+const AppRoutes = lazy(() => import('@src/routes/Routes'))
 //const ModalMenu = lazy(() => import('@components/Modal'))
 //const ToastNotificationWindow = lazy(() => import('@components/Notifications'))
 const ContextMenu = lazy(() => import('@components/ContextMenu'))
-const Sidebar = lazy(() => import('@components/Sidebar'))
 
 const ExampleMenu = () => {
     return (
@@ -36,7 +34,7 @@ const App = () => {
     return (
         <div class="App overflow-y-auto items-center">
             <Suspense>
-                {/* <AppRoutes /> */}
+                <AppRoutes />
                 <ContextMenu ref={ref} name="test">
                     <ExampleMenu />
                 </ContextMenu>
