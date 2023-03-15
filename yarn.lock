@@ -1254,11 +1254,11 @@
   integrity sha512-HdolUstjmvDTIqedbUFqanKeWUOIUrP3hE8z/UFqYLNRFov6ytQxwhn4lnDwEhKYGcxBHI4pPpJYgmymuXSCyA==
 
 "@solid-primitives/map@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/map/-/map-0.4.0.tgz#b080e835f9dea8641e23ec4adf6726cab7955f51"
-  integrity sha512-X2NSBDkngRs7W5hN4nTKCNOBUhDzAm9E9lhP7MHeP4rv/fN8Tt9vHpvKuTyI1oen0cngG/YSTOU6ssmzSCVtQg==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/map/-/map-0.4.2.tgz#b6ca5d9180fcb4ac130d262a6f47b690d5fafd2d"
+  integrity sha512-wmrxRM1p1i0S3/pbGA6KjmGQWbbvg7ctFA+qjn0asMx56RLgATdIafWOElMSkT8Ab4Q+kU+L9TZggSwk++OiRA==
   dependencies:
-    "@solid-primitives/trigger" "^1.0.0"
+    "@solid-primitives/trigger" "^1.0.2"
 
 "@solid-primitives/media@^2.1.3":
   version "2.1.4"
@@ -1290,17 +1290,12 @@
   dependencies:
     "@solid-primitives/utils" "^5.5.0"
 
-"@solid-primitives/trigger@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-1.0.0.tgz#5e343dbfe76f591b9c9fafdbf601942ff938338b"
-  integrity sha512-XuOmDEzRgMz5l3OINBK3FBsld/IT3xTJ9uMRM65jldOenus9F+Mgs+ePAlTjTb7y4BgRP3+RBStkBAYVvuXZOg==
+"@solid-primitives/trigger@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-1.0.2.tgz#bdbcd91c626fdf0f1551ff97d5cf575f2b273213"
+  integrity sha512-2lcO9PTK5D+ivZ5qPbCjOiTCE1wTh9pV3m3tIM3UZimXVxpTnaZX6mQBKOYqScjM2BpoqxpRM7mzVPKkWH3c5Q==
   dependencies:
-    "@solid-primitives/utils" "^5.2.0"
-
-"@solid-primitives/utils@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.2.0.tgz#12e22b29b5c751810cbedfbb2409c30844feb63e"
-  integrity sha512-9sJSBv0IshaQ6qks9FW9ErKZS9qeAv+uYYrsAAXnu5XtDeifRtMk0k6Smje4XxzpxGH/8P4nwS2kk/9vt6KsBg==
+    "@solid-primitives/utils" "^5.4.0"
 
 "@solid-primitives/utils@^5.4.0", "@solid-primitives/utils@^5.5.0":
   version "5.5.0"
