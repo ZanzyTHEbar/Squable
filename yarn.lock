@@ -1181,10 +1181,10 @@
     "@internationalized/string" "^3.1.0"
     "@kobalte/utils" "^0.6.1"
 
-"@kobalte/tailwindcss@^0.4.1":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@kobalte/tailwindcss/-/tailwindcss-0.4.2.tgz#9364c6e9d84dd978c15182ba02cafb1cf8a5ae0d"
-  integrity sha512-06+8HyFYPEFfvfoOwQW6TQbWoRR8iyYrUdI64sPANEHpQWwnUMBdpmJjDQKi58xfvh8DYSbTAqtNRpqU9ALOQw==
+"@kobalte/tailwindcss@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@kobalte/tailwindcss/-/tailwindcss-0.5.0.tgz#946fe5abdd3171af40b17d9b6f349b46cc723da1"
+  integrity sha512-qP2C6mS4FcINHdUBFhNHe2QPvdSvbpDW30b0BgtPVu9F1H1nud2j3DJBezXMDE0N72mrxtvmLRyel9eIUCPVVQ==
 
 "@kobalte/utils@^0.6.1":
   version "0.6.1"

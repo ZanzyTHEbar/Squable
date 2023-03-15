@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@kobalte/core": "^0.7.0",
-    "@kobalte/tailwindcss": "^0.4.1",
+    "@kobalte/tailwindcss": "^0.5.0",
     "@solid-primitives/i18n": "^1.1.2",
     "@solid-primitives/map": "^0.4.0",
     "@solidjs/meta": "^0.28.0",
