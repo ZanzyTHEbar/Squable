@@ -1066,17 +1066,17 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@floating-ui/core@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.2.0.tgz#ae7ae7923d41f3d84cb2fd88740a89436610bbec"
-  integrity sha512-GHUXPEhMEmTpnpIfesFA2KAoMJPb1SPQw964tToQwt+BbGXdhqTCWT1rOb0VURGylsxsYxiGMnseJ3IlclVpVA==
+"@floating-ui/core@^1.2.3":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.2.4.tgz#89e6311b021190c9e121fcf20306e76ac66e4066"
+  integrity sha512-SQOeVbMwb1di+mVWWJLpsUTToKfqVNioXys011beCAhyOIFtS+GQoW4EQSneuxzmQKddExDwQ+X0hLl4lJJaSQ==
 
-"@floating-ui/dom@^1.0.7":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.2.0.tgz#a60212069cc58961c478037c30eba4b191c75316"
-  integrity sha512-QXzg57o1cjLz3cGETzKXjI3kx1xyS49DW9l7kV2jw2c8Yftd434t2hllX0sVGn2Q8MtcW/4pNm8bfE1/4n6mng==
+"@floating-ui/dom@^1.2.3":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.2.4.tgz#e2eb2674f57fc182c425587e48ea43e336f4b8f8"
+  integrity sha512-4+k+BLhtWj+peCU60gp0+rHeR8+Ohqx6kjJf/lHMnJ8JD5Qj6jytcq1+SZzRwD7rvHKRhR7TDiWWddrNrfwQLg==
   dependencies:
-    "@floating-ui/core" "^1.2.0"
+    "@floating-ui/core" "^1.2.3"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -1097,24 +1097,24 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@internationalized/date@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@internationalized/date/-/date-3.0.2.tgz#1566a0bcbd82dce4dd54a5b26456bb701068cb89"
-  integrity sha512-9V1IxesP6ASZj/hYyOXOC4yPJvidbbStyWQKLCQSqhhKACMOXoo+BddXZJy47ju9mqOMpWdrJ2rTx4yTxK9oag==
+"@internationalized/date@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@internationalized/date/-/date-3.1.0.tgz#da48aeaa971df6ad410cd32597c174d6cab9a3b4"
+  integrity sha512-wjeur7K4AecT+YwoBmBXQ/+n5lP69tuZc34hw09s44EozZK7FZHSyfPvRp5/xEb2D6abLboskDY4jG+Nt0TNUQ==
   dependencies:
     "@swc/helpers" "^0.4.14"
 
-"@internationalized/number@^3.1.1":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@internationalized/number/-/number-3.1.2.tgz#4482a6ac573acfb18efd354a42008af20da6c89c"
-  integrity sha512-Mbys8SGsn0ApXz3hJLNU+d95B8luoUbwnmCpBwl7d63UmYAlcT6TRDyvaS/vwdbElXLcsQJjQCu0gox2cv/Tig==
+"@internationalized/number@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@internationalized/number/-/number-3.2.0.tgz#dffb661cacd61a87b814c47b7d5240a286249066"
+  integrity sha512-GUXkhXSX1Ee2RURnzl+47uvbOxnlMnvP9Er+QePTjDjOPWuunmLKlEkYkEcLiiJp7y4l9QxGDLOlVr8m69LS5w==
   dependencies:
     "@swc/helpers" "^0.4.14"
 
-"@internationalized/string@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@internationalized/string/-/string-3.0.1.tgz#2c70a81ae5eb84f156f40330369c2469bad6d504"
-  integrity sha512-2+rHfXZ56YgsC6i3fKvBue/xatnSm0Jv+C/x4+n3wg5xAcLh4LPW3GvZ/9ifxNAz9+IWplgZHa1FRIbSuUvNWg==
+"@internationalized/string@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@internationalized/string/-/string-3.1.0.tgz#0b365906a8c3f44800b0db52c2e990cff345abce"
+  integrity sha512-TJQKiyUb+wyAfKF59UNeZ/kELMnkxyecnyPCnBI1ma4NaXReJW+7Cc2mObXAqraIBJUVv7rgI46RLKrLgi35ng==
   dependencies:
     "@swc/helpers" "^0.4.14"
 
@@ -1170,31 +1170,33 @@
   dependencies:
     lodash "^4.17.21"
 
-"@kobalte/core@^0.6.0":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@kobalte/core/-/core-0.6.1.tgz#e9fbc138f038d347e41f33ddd572fd57b7405d75"
-  integrity sha512-N4v0hr52yxo18pi+kKDqI1xG9RRO2VZQp1kxy63Z38nV7VPJR3DNB3iPHPDrun6Lsn+3L2tKG0bAA/1pWPKOPw==
+"@kobalte/core@^0.7.0":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@kobalte/core/-/core-0.7.2.tgz#5c2739be85a33272e802f91be0f75da3b56ba375"
+  integrity sha512-aRgyhskkarD83dS/g0NPtutUaZhkZ6ztevT62Nw5I7thPsFVhuRjkPD1GsD1GSbnJYMvRlXbsPxab4Vdo4KCrA==
   dependencies:
-    "@floating-ui/dom" "^1.0.7"
-    "@internationalized/date" "^3.0.2"
-    "@internationalized/number" "^3.1.1"
-    "@internationalized/string" "^3.0.0"
-    "@kobalte/utils" "^0.5.1"
+    "@floating-ui/dom" "^1.2.3"
+    "@internationalized/date" "^3.1.0"
+    "@internationalized/number" "^3.2.0"
+    "@internationalized/string" "^3.1.0"
+    "@kobalte/utils" "^0.6.1"
 
 "@kobalte/tailwindcss@^0.4.1":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@kobalte/tailwindcss/-/tailwindcss-0.4.2.tgz#9364c6e9d84dd978c15182ba02cafb1cf8a5ae0d"
   integrity sha512-06+8HyFYPEFfvfoOwQW6TQbWoRR8iyYrUdI64sPANEHpQWwnUMBdpmJjDQKi58xfvh8DYSbTAqtNRpqU9ALOQw==
 
-"@kobalte/utils@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@kobalte/utils/-/utils-0.5.1.tgz#636b6cc24b5f10da13a54bd508a168a4ee926a6b"
-  integrity sha512-CwJv76/PNSU5TnNrunVggaGBy/vhgrEbQvO6UcEPIPAOBNiviEP/90AkiNex7l5BKucpyCrNft74DFC0X3qkIQ==
+"@kobalte/utils@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@kobalte/utils/-/utils-0.6.1.tgz#2dafed24ec8ec6e3f339de8251ba3c5a55bd1abb"
+  integrity sha512-YvBqe9t9j0iYFUHfKXSMLQKM3s5+nL72RvT9b75W+IOxUpSpN4rdaI8C2j97k3LsEt7qY4ktJdt8lPM1rr8JXw==
   dependencies:
-    "@solid-primitives/event-listener" "^2.2.4"
-    "@solid-primitives/media" "^2.0.4"
-    "@solid-primitives/refs" "^0.3.4"
-    "@solid-primitives/utils" "^4.0.0"
+    "@solid-primitives/event-listener" "^2.2.8"
+    "@solid-primitives/keyed" "^1.1.8"
+    "@solid-primitives/media" "^2.1.3"
+    "@solid-primitives/props" "^3.1.1"
+    "@solid-primitives/refs" "^1.0.0"
+    "@solid-primitives/utils" "^5.4.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1229,24 +1231,22 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@solid-primitives/event-listener@^2.2.4", "@solid-primitives/event-listener@^2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/event-listener/-/event-listener-2.2.6.tgz#d5a3ff4fc63bff46586cd1f1ca4ab7798f656d77"
-  integrity sha512-Lb2q888Apv8wqgZ3WvPlt8ic2rEmHx6QT8d3pgi+JRSIRNwAysE6PZDmbwT6/hzzP1TIQG0IRZwh5tomfuqlaQ==
+"@solid-primitives/event-listener@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/event-listener/-/event-listener-2.2.8.tgz#74acf467de7186d37cb73927bb53f3367b357d36"
+  integrity sha512-I3Fw6+1g1YrXBWHwnNi6UaYuRVeaRBN2pvfGvKgnHH4OtfN6mgkGXi7s+/QOJjS29sEdwRDR9tQgxckaIxKZ7A==
   dependencies:
-    "@solid-primitives/utils" "^5.0.0"
+    "@solid-primitives/utils" "^5.4.0"
 
 "@solid-primitives/i18n@^1.1.2":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@solid-primitives/i18n/-/i18n-1.1.4.tgz#6e84b8d6f5f1b86a4e91f3eaa8a5fad587dc8244"
   integrity sha512-TKTcwItoL+T0QJCf1W5Hav5Zdl4JKwWWdri34cgBpUEx4eSb5CouH3Mr3kH9cknaETV2oVU9lJObeCoQikLj0w==
 
-"@solid-primitives/immutable@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/immutable/-/immutable-0.1.6.tgz#e93c7c6c59cf4c812b0dc8b90e4b55b7ee9ba009"
-  integrity sha512-P4wbDogtytijTV5En+bm6jfFbf4ZOMnfmttUJ8642MQ0tJ2VS2z8iJplg9YFJIltXz7W/+2mdfw2XczlkTxeGg==
-  dependencies:
-    "@solid-primitives/utils" "^5.0.0"
+"@solid-primitives/keyed@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/keyed/-/keyed-1.1.8.tgz#4fa295c35f4c13e64f118897634d45874e8fdc8b"
+  integrity sha512-HdolUstjmvDTIqedbUFqanKeWUOIUrP3hE8z/UFqYLNRFov6ytQxwhn4lnDwEhKYGcxBHI4pPpJYgmymuXSCyA==
 
 "@solid-primitives/map@^0.4.0":
   version "0.4.0"
@@ -1255,30 +1255,35 @@
   dependencies:
     "@solid-primitives/trigger" "^1.0.0"
 
-"@solid-primitives/media@^2.0.4":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/media/-/media-2.1.0.tgz#c172d256bba3d752a2b66e29654c1c18c22e8a55"
-  integrity sha512-5+EaG1AipBN4dv+w+gaqXIGCUw6zBltEVLx8DhD0uJt79r0egBUPwVK+PiIoM1vsoYESfz2NAT9c5QxKaXj6mg==
+"@solid-primitives/media@^2.1.3":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/media/-/media-2.1.4.tgz#1f73481b96cef6ba858c9a140d6777a789e310e3"
+  integrity sha512-EkQee0qKAXE3vgFu1QRzouhQBHwbSbo5u+g0yP3+BwlkBVyeU1VADQnklZY6+KaXsby/y1/oOKWoaFjJINA4mg==
   dependencies:
-    "@solid-primitives/event-listener" "^2.2.6"
-    "@solid-primitives/rootless" "^1.2.3"
-    "@solid-primitives/utils" "^5.0.0"
+    "@solid-primitives/event-listener" "^2.2.8"
+    "@solid-primitives/rootless" "^1.3.0"
+    "@solid-primitives/utils" "^5.5.0"
 
-"@solid-primitives/refs@^0.3.4":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/refs/-/refs-0.3.6.tgz#1c36100af5dad3594f0f70ae8a11d21875430e37"
-  integrity sha512-8PkCzIxnHd+kY3IaLKWvix0G15iUS6hffMOooM9fWnkQy2p5PYjOWtC/qucOBGfn6skaOAMq5rnoP40WNi9YXw==
+"@solid-primitives/props@^3.1.1":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/props/-/props-3.1.2.tgz#84945d474fb6772da4c5260116092b70bea3cda3"
+  integrity sha512-d5HUGpTvNVRSJD4VUxqgdwdNap8b+dWDW+BnjKS2z+w0w/gxgkEr+RF0OJ6CNB3kBZ7yhPW4ApHnei7vrgAPFQ==
   dependencies:
-    "@solid-primitives/immutable" "^0.1.6"
-    "@solid-primitives/rootless" "^1.2.3"
-    "@solid-primitives/utils" "^5.0.0"
+    "@solid-primitives/utils" "^5.4.0"
 
-"@solid-primitives/rootless@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/rootless/-/rootless-1.2.3.tgz#ed3315e8b2698afe60668e9350b14cf9e9913ae9"
-  integrity sha512-g6sKTQt8onmyWAh92q/+7ZwAZwVQx5qCDBEo7c0+yWZbFK81t6jWCPIYDWXpI1QJ/xxLg41iuN6Eb3fJL5IDHA==
+"@solid-primitives/refs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/refs/-/refs-1.0.0.tgz#1850b9d656aae87df59cdf837650b559c2411eac"
+  integrity sha512-eoX2UNSIGIFniuf7bbq7vPdl7QxNL/vxHQFxbXaqtFpvPaLDHRNLzYOO3xai24D8U63Vmg1Wresysia9B35mXw==
   dependencies:
-    "@solid-primitives/utils" "^5.0.0"
+    "@solid-primitives/utils" "^5.4.0"
+
+"@solid-primitives/rootless@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/rootless/-/rootless-1.3.0.tgz#fb61542a36bd93ed490ecdf578884c0798e63d73"
+  integrity sha512-zYt8g8LFfbP2ja3LZaFAa42U+fuTDO/suWCyDx/77Znbic7afDOuIVyTBYv14hEgCxL1mfFmwyvkz4BUbPLcbA==
+  dependencies:
+    "@solid-primitives/utils" "^5.5.0"
 
 "@solid-primitives/trigger@^1.0.0":
   version "1.0.0"
@@ -1287,20 +1292,15 @@
   dependencies:
     "@solid-primitives/utils" "^5.2.0"
 
-"@solid-primitives/utils@^4.0.0":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-4.0.1.tgz#3c164f289ee1da36698a6b9a6fb449c8787112c3"
-  integrity sha512-06fSyBair7ZxCquMjIqJes29aNg65X776TVw4EUN7PBtdWsGUeIZ9F/H4ek7yrDSxaSDaPHeye5knEYsYAq2gA==
-
-"@solid-primitives/utils@^5.0.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.1.0.tgz#e1295ec3d091012795c02c8e8aa8916f40177185"
-  integrity sha512-1qmY9VaHWbEolBGhszqq7ziPJpXOXtcsQ14I7j8o/57bvfBQtwZ64idJrSdPBPIGzKSyPVZ1olYWz4yfitTBrA==
-
 "@solid-primitives/utils@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.2.0.tgz#12e22b29b5c751810cbedfbb2409c30844feb63e"
   integrity sha512-9sJSBv0IshaQ6qks9FW9ErKZS9qeAv+uYYrsAAXnu5XtDeifRtMk0k6Smje4XxzpxGH/8P4nwS2kk/9vt6KsBg==
+
+"@solid-primitives/utils@^5.4.0", "@solid-primitives/utils@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.5.0.tgz#d20f17f4f352b7edaa36715543a9e8615f7f3749"
+  integrity sha512-+0VGdqRA4g/u6PACJKER7E9v7njd3c+JA4RuXGvvZO/v8wPegOLHkxpohOQHRBSWY+Q+dmyVfXn0mks2m6gfJg==
 
 "@solidjs/meta@^0.28.0":
   version "0.28.2"
