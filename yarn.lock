@@ -1248,12 +1248,12 @@
   dependencies:
     "@solid-primitives/utils" "^5.0.0"
 
-"@solid-primitives/map@^0.3.1":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/map/-/map-0.3.2.tgz#888b242d6c14a3f5d7165656f9038dd299e77d4a"
-  integrity sha512-44vdbFvVD32BDlqVh6H+bIggcRlcUUoNVTqs6TTX6ebo221qF3gEm2DkFhH2UeZ72gPYSAxGb81mLmAm9yg1tQ==
+"@solid-primitives/map@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/map/-/map-0.4.0.tgz#b080e835f9dea8641e23ec4adf6726cab7955f51"
+  integrity sha512-X2NSBDkngRs7W5hN4nTKCNOBUhDzAm9E9lhP7MHeP4rv/fN8Tt9vHpvKuTyI1oen0cngG/YSTOU6ssmzSCVtQg==
   dependencies:
-    "@solid-primitives/trigger" "^0.0.4"
+    "@solid-primitives/trigger" "^1.0.0"
 
 "@solid-primitives/media@^2.0.4":
   version "2.1.0"
@@ -1280,12 +1280,12 @@
   dependencies:
     "@solid-primitives/utils" "^5.0.0"
 
-"@solid-primitives/trigger@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-0.0.4.tgz#38a4e636e097d21bd018183fc3f1f8a14d4489cf"
-  integrity sha512-MLdiHC69bxhmWtYB0I0D/0xgJUX7Q9cM4+YgF7pWq60CzkOxoMUCTmM3zUFrohGzPOfTmUpdi3nbYT7PVZdAGw==
+"@solid-primitives/trigger@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-1.0.0.tgz#5e343dbfe76f591b9c9fafdbf601942ff938338b"
+  integrity sha512-XuOmDEzRgMz5l3OINBK3FBsld/IT3xTJ9uMRM65jldOenus9F+Mgs+ePAlTjTb7y4BgRP3+RBStkBAYVvuXZOg==
   dependencies:
-    "@solid-primitives/utils" "^5.0.0"
+    "@solid-primitives/utils" "^5.2.0"
 
 "@solid-primitives/utils@^4.0.0":
   version "4.0.1"
@@ -1296,6 +1296,11 @@
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.1.0.tgz#e1295ec3d091012795c02c8e8aa8916f40177185"
   integrity sha512-1qmY9VaHWbEolBGhszqq7ziPJpXOXtcsQ14I7j8o/57bvfBQtwZ64idJrSdPBPIGzKSyPVZ1olYWz4yfitTBrA==
+
+"@solid-primitives/utils@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-5.2.0.tgz#12e22b29b5c751810cbedfbb2409c30844feb63e"
+  integrity sha512-9sJSBv0IshaQ6qks9FW9ErKZS9qeAv+uYYrsAAXnu5XtDeifRtMk0k6Smje4XxzpxGH/8P4nwS2kk/9vt6KsBg==
 
 "@solidjs/meta@^0.28.0":
   version "0.28.2"
