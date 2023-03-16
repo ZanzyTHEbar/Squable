@@ -1391,6 +1391,11 @@
   dependencies:
     "@solid-primitives/utils" "^5.5.0"
 
+"@solid-primitives/transition-group@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/transition-group/-/transition-group-1.0.0.tgz#b1e3e348ac026b18954d08a59ffe530ba2c1d154"
+  integrity sha512-/k4nBZca6gpGsUUPVAUGNowRbQuod8FwGlh1fhr4teQHyFIDNUFUiA74XUwPf49BAHDdCYsNEJo6eDizrXUh1w==
+
 "@solid-primitives/trigger@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-1.0.2.tgz#bdbcd91c626fdf0f1551ff97d5cf575f2b273213"
@@ -4995,10 +5000,13 @@ solid-spinner@^0.1.9:
   resolved "https://registry.yarnpkg.com/solid-spinner/-/solid-spinner-0.1.9.tgz#4292edf195b779f22a4fd68cdee522d82e7f6507"
   integrity sha512-cwSmcvlSm134MzUHL1/Il5Mv0/eWTuj0D3A8TBEvVGgN00hBCyHV9wbtfkK2uOlk4gop4FvvI9UFo9mQnONx5g==
 
-solid-transition-group@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.0.13.tgz#1a476d3798759be106ad1062cc071db139b0d564"
-  integrity sha512-VA1V0ip4dsNOQJ/dCluCiAPBUuHspYFm4WYG91jpNmcP4rC4DY1S1EGds44JjiUAP7qEoEZdMhPaiS6lqTF7AA==
+solid-transition-group@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.1.0.tgz#2632233b78fd0bd72ec9a0c4105fede9d9cbbb32"
+  integrity sha512-16AhnEhF7JOTR6fDpphqLUI0faRKbrWdC583XQ9JOg3CT1kLXKhg0zDi6WKFF2TPtH6x9yT5iIx5nbKc0kvjNg==
+  dependencies:
+    "@solid-primitives/refs" "^1.0.0"
+    "@solid-primitives/transition-group" "^1.0.0"
 
 solid-use@^0.6.2:
   version "0.6.2"
