@@ -1270,9 +1270,9 @@
     lodash "^4.17.21"
 
 "@kobalte/core@^0.7.0":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@kobalte/core/-/core-0.7.2.tgz#5c2739be85a33272e802f91be0f75da3b56ba375"
-  integrity sha512-aRgyhskkarD83dS/g0NPtutUaZhkZ6ztevT62Nw5I7thPsFVhuRjkPD1GsD1GSbnJYMvRlXbsPxab4Vdo4KCrA==
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@kobalte/core/-/core-0.7.4.tgz#3fb08df82ed497a24b5b8fe836b9f8dd2f640287"
+  integrity sha512-FzVyBvYkDQ/VIQnrMMXG4LUuPn8dOQkdr+9EenwH4YyHDhwa2Nl8Zu7F+3Caw/jH4Xs9fDAnk+FBb9dAXgAT5g==
   dependencies:
     "@floating-ui/dom" "^1.2.3"
     "@internationalized/date" "^3.1.0"
