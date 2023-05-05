@@ -115,10 +115,10 @@
                 "depends": []
             },
             "icon": [
-                "../public/images/icons/icon-48x48.png",
-                "../public/images/icons/icon-128x128.png",
-                "../public/images/icons/144x144.png",
-                "../public/images/icons/favicon.ico"
+                "../public/images/icons/48x48.png",
+                "../public/images/icons/128x128.png",
+                "../public/images/icons/Square142x142Logo.png",
+                "../public/images/icons/icon.ico"
             ],
             "identifier": "com.squable.dev",
             "longDescription": "",
