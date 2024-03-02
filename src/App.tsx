@@ -1,49 +1,50 @@
-import { onMount, Suspense, lazy } from 'solid-js'
-import { handleTitlebar, handleAppBoot } from '@utils/hooks/app'
-const AppRoutes = lazy(() => import('@src/routes/Routes'))
+import { onMount, Suspense, lazy } from "solid-js";
+import { handleTitlebar, handleAppBoot } from "@utils/hooks/app";
+const AppRoutes = lazy(() => import("@src/routes/Routes"));
 //const ModalMenu = lazy(() => import('@components/Modal'))
 //const ToastNotificationWindow = lazy(() => import('@components/Notifications'))
-const ContextMenu = lazy(() => import('@components/ContextMenu'))
+const ContextMenu = lazy(() => import("@components/ContextMenu"));
 
 const ExampleMenu = () => {
-    return (
-        <div>
-            <h1 class="text-lg">Sub Menu</h1>
-            <hr class="divider" />
-            <label class="context-menu-labels" for="test-button">
-                Test Button
-            </label>
-            <button
-                id="test-button"
-                onClick={() => {
-                    console.log('clicked')
-                }}>
-                Test
-            </button>
-            <hr class="divider" />
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1 class="text-lg">Sub Menu</h1>
+      <hr class="divider" />
+      <label class="context-menu-labels" for="test-button">
+        Test Button
+      </label>
+      <button
+        id="test-button"
+        onClick={() => {
+          console.log("clicked");
+        }}
+      >
+        Bob
+      </button>
+      <hr class="divider" />
+    </div>
+  );
+};
 
 const App = () => {
-    const ref = document.getElementById('titlebar') // TODO: this is a hack, need to figure out how to get the ref to the bound element
-    onMount(() => {
-        handleTitlebar()
-        handleAppBoot()
-    })
-    return (
-        <div class="App overflow-y-auto items-center">
-            <Suspense>
-                <AppRoutes />
-                <ContextMenu ref={ref} name="test">
-                    <ExampleMenu />
-                </ContextMenu>
-                {/* <ModalMenu>
+  const ref = document.getElementById("titlebar"); // TODO: this is a hack, need to figure out how to get the ref to the bound element
+  onMount(() => {
+    handleTitlebar();
+    handleAppBoot();
+  });
+  return (
+    <div class="App overflow-y-auto items-center">
+      <Suspense>
+        <AppRoutes />
+        <ContextMenu ref={ref} name="test">
+          <ExampleMenu />
+        </ContextMenu>
+        {/* <ModalMenu>
                 </ModalMenu>
                 <ToastNotificationWindow /> */}
-            </Suspense>
-        </div>
-    )
-}
+      </Suspense>
+    </div>
+  );
+};
 
-export default App
+export default App;
