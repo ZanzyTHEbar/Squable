@@ -5000,10 +5000,10 @@ solid-spinner@^0.1.9:
   resolved "https://registry.yarnpkg.com/solid-spinner/-/solid-spinner-0.1.9.tgz#4292edf195b779f22a4fd68cdee522d82e7f6507"
   integrity sha512-cwSmcvlSm134MzUHL1/Il5Mv0/eWTuj0D3A8TBEvVGgN00hBCyHV9wbtfkK2uOlk4gop4FvvI9UFo9mQnONx5g==
 
-solid-transition-group@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.1.0.tgz#2632233b78fd0bd72ec9a0c4105fede9d9cbbb32"
-  integrity sha512-16AhnEhF7JOTR6fDpphqLUI0faRKbrWdC583XQ9JOg3CT1kLXKhg0zDi6WKFF2TPtH6x9yT5iIx5nbKc0kvjNg==
+solid-transition-group@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/solid-transition-group/-/solid-transition-group-0.2.0.tgz#7e4e4dba1a6f4b0c9ca01dbd05cd0d66fcb1002e"
+  integrity sha512-+u6rHLmfHMYoQanWlrU6CvVTMETjRfVvM2gbqtq7vz1OWq2Y7pNdAMErqpeYWZcA6OnbDNJprFRwTj35WFBfMw==
   dependencies:
     "@solid-primitives/refs" "^1.0.0"
     "@solid-primitives/transition-group" "^1.0.0"
