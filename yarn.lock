@@ -1447,10 +1447,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@tauri-apps/api@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.2.0.tgz#1f196b3e012971227f41b98214c846430a4eb477"
-  integrity sha512-lsI54KI6HGf7VImuf/T9pnoejfgkNoXveP14pVV7XarrQ46rOejIVJLFqHI9sRReJMGdh2YuCoI3cc/yCWCsrw==
+"@tauri-apps/api@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.6.0.tgz#745b7e4e26782c3b2ad9510d558fa5bb2cf29186"
+  integrity sha512-rqI++FWClU5I2UBp4HXFvl+sBWkdigBkxnpJDQUWttNyG7IZP4FwQGhTNL5EOw0vI8i6eSAJ5frLqO7n7jbJdg==
 
 "@tauri-apps/api@^2.0.0-alpha.0":
   version "2.0.0-alpha.0"
@@ -5209,12 +5209,12 @@ tapable@^2.2.0:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
-"tauri-plugin-store-api@github:tauri-apps/tauri-plugin-store#201639d":
+"tauri-plugin-store-api@github:tauri-apps/tauri-plugin-store#0b7079b":
   version "0.0.0"
-  uid "201639d72bc8c4dec6f40ff7c02162c7926bfa3d"
-  resolved "https://codeload.github.com/tauri-apps/tauri-plugin-store/tar.gz/201639d72bc8c4dec6f40ff7c02162c7926bfa3d"
+  uid "0b7079b8c55bf25f6d9d9e8c57812d03b48a9788"
+  resolved "https://codeload.github.com/tauri-apps/tauri-plugin-store/tar.gz/0b7079b8c55bf25f6d9d9e8c57812d03b48a9788"
   dependencies:
-    "@tauri-apps/api" "^1.2.0"
+    "@tauri-apps/api" "1.6.0"
 
 test-exclude@^6.0.0:
   version "6.0.0"
